@@ -56,9 +56,9 @@ const Navbar = () => {
               className="group flex items-center space-x-3 transform hover:scale-105 transition-all duration-300"
             >
               <div className="relative">
-                <div className="w-10 h-10 rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-purple-300/50 transition-all duration-300">
+                <div className="bg-black w-20 h-10 rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-purple-300/50 transition-all duration-300">
                   <img
-                    className="bg-white font-bold text-6xl"
+                    className="bg-black font-bold text-6xl"
                     src="https://cdn.prod.website-files.com/65e8a443d3a217849e4283b8/65e8a443d3a217849e428453_IMG_6463-p-2000.png"
                   ></img>
                 </div>

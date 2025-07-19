@@ -266,7 +266,9 @@ const Footer = () => {
           <div className="border-t border-purple-700/50 pt-6">
             <div className="flex flex-col md:flex-row items-center justify-between text-sm text-purple-300">
               <div className="flex items-center mb-4 md:mb-0">
-                <span>&copy; {currentYear} Dhruv Rathee Academy. Made with </span>
+                <span>
+                  &copy; {currentYear} Dhruv Rathee Academy. Made with{" "}
+                </span>
                 <FaHeart className="w-4 h-4 text-red-400 mx-1 animate-pulse" />
                 <span>for Hackathon. All rights reserved.</span>
               </div>
