@@ -114,7 +114,7 @@ const Home = () => {
 
               {/* Main Image */}
               <img
-                src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=300&h=300&fit=crop&crop=face"
+                src="https://cdn.prod.website-files.com/65e8a443d3a217849e4283b8/65e8a443d3a217849e42842f_Frame%20237807.png"
                 alt="Profile"
                 className="relative w-56 h-56 mx-auto rounded-full object-cover border-4 border-white/20 shadow-2xl transform hover:scale-110 transition-all duration-500 backdrop-blur-sm"
               />
@@ -150,18 +150,18 @@ const Home = () => {
             <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed mb-8">
               Join over{" "}
               <span className="font-bold text-transparent bg-gradient-to-r from-pink-400 to-purple-500 bg-clip-text">
-                1M+ creators
+                10M+ creators
               </span>{" "}
-              who are building their dreams with cutting-edge strategies,
-              exclusive content, and a thriving community.
+              who are empowering themselves with fact-based knowledge, critical
+              thinking, and real-world education through Dhruv Rathee Academy.
             </p>
 
             {/* Stats */}
             <div className="flex flex-wrap justify-center gap-8 mb-12">
               {[
-                { icon: FaUsers, number: "1M+", label: "Community" },
+                { icon: FaUsers, number: "10M+", label: "Community" },
                 { icon: FaStar, number: "4.9", label: "Rating" },
-                { icon: FaRocket, number: "500+", label: "Success Stories" },
+                { icon: FaRocket, number: "5000+", label: "Success Stories" },
               ].map((stat, index) => (
                 <div
                   key={index}
@@ -180,19 +180,22 @@ const Home = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-wrap justify-center gap-6 mb-12">
-              <button className="group relative px-10 py-4 bg-gradient-to-r from-pink-500 to-purple-600 text-white font-bold rounded-full overflow-hidden transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-pink-500/25">
+              <a href="/products" className="group relative px-10 py-4 bg-gradient-to-r from-pink-500 to-purple-600 text-white font-bold rounded-full overflow-hidden transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-pink-500/25">
                 <span className="absolute inset-0 bg-gradient-to-r from-pink-600 to-purple-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
                 <span className="relative z-10 flex items-center gap-2">
                   <FaRocket className="group-hover:rotate-12 transition-transform" />
                   Start Your Journey
                 </span>
                 <div className="absolute inset-0 bg-white/20 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700 skew-x-12"></div>
-              </button>
+              </a>
 
-              <button className="group px-10 py-4 bg-transparent border-2 border-white/30 text-white font-bold rounded-full transition-all duration-300 hover:bg-white/10 hover:border-white/60 backdrop-blur-sm flex items-center gap-2">
+              <a
+                href="https://www.youtube.com/watch?v=PvTcmse6DDY"
+                className="group px-10 py-4 bg-transparent border-2 border-white/30 text-white font-bold rounded-full transition-all duration-300 hover:bg-white/10 hover:border-white/60 backdrop-blur-sm flex items-center gap-2"
+              >
                 <FaPlay className="group-hover:scale-110 transition-transform" />
                 Watch Demo
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -224,23 +227,26 @@ const Home = () => {
                 color: "from-pink-500 to-red-500",
                 hover: "hover:from-pink-600 hover:to-red-600",
                 label: "Instagram",
+                link: "https://www.instagram.com/dhruvrathee",
               },
               {
                 icon: FaYoutube,
                 color: "from-red-500 to-red-600",
                 hover: "hover:from-red-600 hover:to-red-700",
                 label: "YouTube",
+                link: "https://www.youtube.com/@dhruvrathee",
               },
               {
                 icon: FaTwitter,
                 color: "from-blue-400 to-blue-500",
                 hover: "hover:from-blue-500 hover:to-blue-600",
                 label: "Twitter",
+                link: "https://x.com/dhruv_rathee",
               },
             ].map((social, index) => (
               <a
                 key={index}
-                href="#"
+                href={social.link}
                 className={`group relative w-16 h-16 bg-gradient-to-br ${social.color} ${social.hover} rounded-2xl flex items-center justify-center transform hover:scale-110 hover:rotate-6 transition-all duration-300 shadow-lg hover:shadow-2xl`}
               >
                 <social.icon className="text-white text-2xl group-hover:scale-110 transition-transform" />
@@ -266,25 +272,29 @@ const Home = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                title: "AI-Powered Course Launch",
+                title: "Master ChatGPT: Transform Your Life With AI Chatbots",
                 description:
-                  "Master the future with our cutting-edge AI leadership program",
-                image: "/assets/sample1.jpg",
+                  "Artificial Intelligence is transforming the world, and ChatGPT is at the forefront. This course teaches you how to use ChatGPT to boost productivity at work, school, and home. Explore the basics of machine learning, prompt engineering, and practical AI applications. Unlock the full potential of AI in your daily life.",
+                image:
+                  "https://cdn.prod.website-files.com/65e8a443d3a217849e4283b8/65e8a443d3a217849e42844a_Course%20Card.png",
                 badge: "New",
                 gradient: "from-purple-500 to-pink-500",
               },
               {
-                title: "Exclusive Podcast Series",
+                title: "EMaster Time Management",
                 description:
-                  "Deep dive into startup culture with industry leaders",
-                image: "/assets/sample2.jpg",
+                  "Boost your productivity and happiness with this updated course designed to transform your daily routine. Learn how to plan effectively, track your time, set meaningful goals, and build life-changing habits. Now available in Hindi with English subtitles. Take the first step toward a more organized, focused, and fulfilling life today.",
+                image:
+                  "https://cdn.prod.website-files.com/65e8a443d3a217849e4283b8/66f1297be6a8a547698c3fb0_Image%20(12).png",
                 badge: "Hot",
                 gradient: "from-blue-500 to-cyan-500",
               },
               {
-                title: "Mumbai Meetup Highlights",
-                description: "Epic moments from our latest community gathering",
-                image: "/assets/sample3.jpg",
+                title: "The YouTube Blueprint",
+                description:
+                  "Ever dreamt of becoming a YouTuber? This all-in-one course is your complete step-by-step guide. Learn how to script, shoot, and edit compelling videos, grow a loyal audience, and earn money doing what you love. Whether you're aiming for a full-time career or a side hustle, start your journey and turn your passion into reality today!",
+                image:
+                  "https://cdn.prod.website-files.com/65e8a443d3a217849e4283b8/661e23c44d5774d4828bbc30_Course%20Card.png",
                 badge: "Trending",
                 gradient: "from-green-500 to-emerald-500",
               },

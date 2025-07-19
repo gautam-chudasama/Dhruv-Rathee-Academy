@@ -110,21 +110,22 @@ const Footer = () => {
                   </div>
                 </div>
                 <span className="font-extrabold text-2xl tracking-tight text-white ml-3">
-                  BrandName
+                  Dhruv Rathee Academy
                 </span>
               </div>
 
               <p className="text-purple-100 mb-6 leading-relaxed">
-                Empowering the next generation of creators and innovators. Join
-                our community of dreamers and achievers building the future
-                together.
+                Empowering the next generation of informed thinkers and
+                changemakers. Join the Dhruv Rathee Academy community — where
+                curious minds, dreamers, and achievers come together to learn,
+                grow, and build a better future through knowledge and awareness.
               </p>
 
               {/* Contact Info */}
               <div className="space-y-3 text-sm text-purple-200">
                 <div className="flex items-center">
                   <Mail className="w-4 h-4 mr-3 text-purple-300" />
-                  <span>hello@brandname.com</span>
+                  <span>support@dhruvrathee.com</span>
                 </div>
                 <div className="flex items-center">
                   <Phone className="w-4 h-4 mr-3 text-purple-300" />
@@ -244,13 +245,13 @@ const Footer = () => {
               {/* Stats/Achievements */}
               <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-8 text-center">
                 <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-4">
-                  <div className="text-2xl font-bold text-white">50K+</div>
+                  <div className="text-2xl font-bold text-white">10M+</div>
                   <div className="text-purple-300 text-sm">
                     Community Members
                   </div>
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-4">
-                  <div className="text-2xl font-bold text-white">100+</div>
+                  <div className="text-2xl font-bold text-white">5000+</div>
                   <div className="text-purple-300 text-sm">Success Stories</div>
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-4">
@@ -265,7 +266,7 @@ const Footer = () => {
           <div className="border-t border-purple-700/50 pt-6">
             <div className="flex flex-col md:flex-row items-center justify-between text-sm text-purple-300">
               <div className="flex items-center mb-4 md:mb-0">
-                <span>&copy; {currentYear} BrandName. Made with </span>
+                <span>&copy; {currentYear} Dhruv Rathee Academy. Made with </span>
                 <FaHeart className="w-4 h-4 text-red-400 mx-1 animate-pulse" />
                 <span>for Hackathon. All rights reserved.</span>
               </div>

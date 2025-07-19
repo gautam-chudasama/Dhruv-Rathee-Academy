@@ -11,11 +11,11 @@ import {
 } from "react-icons/fa";
 
 const founder = {
-  name: "Ananya Mehra",
-  role: "Founder & Visionary",
+  name: "Dhruv Rathee",
+  role: "Youtuber",
   bio: "Ananya Mehra is a celebrated Indian tech influencer and entrepreneur. With over 1 million followers, her mission is to empower the next generation of coders and creators with accessible, high-impact learning experiences.",
   photo:
-    "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=400&h=400&fit=crop&crop=face",
+    "https://cdn.prod.website-files.com/65e8a443d3a217849e4283b8/65e8a443d3a217849e428438_Dhruv%201(1).png",
   stats: [
     { number: "1M+", label: "Followers", icon: FaUsers },
     { number: "10K+", label: "Students Trained", icon: FaGraduationCap },

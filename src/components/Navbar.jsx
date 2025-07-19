@@ -56,13 +56,16 @@ const Navbar = () => {
               className="group flex items-center space-x-3 transform hover:scale-105 transition-all duration-300"
             >
               <div className="relative">
-                <div className="w-10 h-10 bg-gradient-to-br from-purple-600 via-pink-500 to-blue-500 rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-purple-300/50 transition-all duration-300">
-                  <span className="text-white font-bold text-lg">B</span>
+                <div className="w-10 h-10 rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-purple-300/50 transition-all duration-300">
+                  <img
+                    className="bg-white font-bold text-6xl"
+                    src="https://cdn.prod.website-files.com/65e8a443d3a217849e4283b8/65e8a443d3a217849e428453_IMG_6463-p-2000.png"
+                  ></img>
                 </div>
                 <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-xl opacity-0 group-hover:opacity-20 blur transition-all duration-300"></div>
               </div>
               <span className="font-black text-2xl bg-gradient-to-r from-purple-700 via-pink-600 to-blue-600 bg-clip-text text-transparent tracking-tight">
-                BrandName
+                Dhruv Rathee Academy
               </span>
             </Link>
 
