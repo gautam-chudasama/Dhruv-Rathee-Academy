@@ -1,11 +1,5 @@
 @import "tailwindcss";
 
-/* =================================================================
-   HACKATHON-READY ENHANCEMENT PACK
-   Enhanced animations, effects, and modern CSS for maximum impact
-   ================================================================= */
-
-/* ===== CUSTOM PROPERTIES & VARIABLES ===== */
 :root {
   --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   --secondary-gradient: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
