@@ -81,19 +81,23 @@ const productsData = [
   },
   {
     id: 5,
-    title: "Digital Marketing Pro",
+    title: "The Power of Universe",
     category: "E-books",
-    price: "₹3499",
-    originalPrice: "₹5999",
+    price: "₹59",
+    originalPrice: "₹119",
     image:
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+      "https://cdn.prod.website-files.com/65e8a443d3a217849e4283b8/6634b3b8bd31e9e068535024_Frame%201171275002%20(1).png",
     description:
-      "Master digital marketing with hands-on projects and real campaigns.",
-    rating: 4.9,
+      "Read 'The Power of Universe' by Vijeta Dahiya and find out. What you would learn here would guide you through your life.",
+    rating: 4.6,
     students: 1876,
-    duration: "12 weeks",
-    badge: "Hot",
-    features: ["Real Projects", "Industry Tools", "Job Placement"],
+    duration: "77 Pages",
+    badge: "E-Book",
+    features: [
+      "Commentary by Dhruv Rathee",
+      "1.5 hours of reading",
+      "Hindi and English",
+    ],
   },
 ];
 
@@ -363,15 +367,17 @@ const Products = () => {
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 text-center">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 animate-fade-in">
-            Our Premium
+            LEARN WHAT
             <span className="bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent">
               {" "}
-              Collection
+              SCHOOL{" "}
             </span>
+            DOESN’T TEACH YOU
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-8">
-            Discover our handpicked courses and exclusive merchandise designed
-            to elevate your journey
+            At Dhruv Rathee Academy, you can gain practical knowledge and learn
+            real-world skills that will help you transform your life at work,
+            school and home.
           </p>
 
           {/* Search Bar */}
