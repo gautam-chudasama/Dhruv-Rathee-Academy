@@ -22,7 +22,7 @@ const LoadingSpinner = () => (
       {/* Animated logo/brand placeholder */}
       <div className="text-center mb-8">
         <div className="text-white text-4xl font-bold mb-4 animate-pulse">
-          BrandName
+          Dhruv Rathee Academy
         </div>
       </div>
 

@@ -14,6 +14,7 @@ import {
   Link,
 } from "lucide-react";
 import { FaArrowUp, FaHeart } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 const currentYear = new Date().getFullYear();
 
@@ -38,24 +39,29 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: Instagram,
-      href: "#",
+      href: "https://www.instagram.com/dhruvrathee",
       label: "Instagram",
       color: "hover:text-pink-400",
     },
-    { icon: Youtube, href: "#", label: "YouTube", color: "hover:text-red-400" },
+    {
+      icon: Youtube,
+      href: "https://www.youtube.com/@dhruvrathee",
+      label: "YouTube",
+      color: "hover:text-red-400",
+    },
     {
       icon: Twitter,
-      href: "#",
+      href: "https://x.com/dhruv_rathee",
       label: "Twitter",
       color: "hover:text-blue-400",
     },
     {
       icon: Linkedin,
-      href: "#",
+      href: "https://www.linkedin.com/company/dhruvrathee/",
       label: "LinkedIn",
       color: "hover:text-blue-300",
     },
-    { icon: Github, href: "#", label: "GitHub", color: "hover:text-gray-300" },
+    // { icon: Github, href: "#", label: "GitHub", color: "hover:text-gray-300" },
   ];
 
   const quickLinks = [
@@ -168,13 +174,13 @@ const Footer = () => {
               <ul className="space-y-3">
                 {resources.map((resource, index) => (
                   <li key={index}>
-                    <Link
+                    <NavLink
                       to={resource.path}
                       className="text-purple-200 hover:text-white transition-all duration-300 flex items-center group"
                     >
                       <span className="w-0 h-0.5 bg-purple-400 transition-all duration-300 group-hover:w-4 mr-0 group-hover:mr-2 rounded-full"></span>
                       {resource.name}
-                    </Link>
+                    </NavLink>
                   </li>
                 ))}
               </ul>
@@ -278,8 +284,8 @@ const Footer = () => {
                   <span className="w-2 h-2 bg-green-400 rounded-full mr-2 animate-pulse"></span>
                   System Status: Operational
                 </span>
-                <Link
-                  to="/privacy"
+                {/* <Link
+                  to="#"
                   className="hover:text-white transition-colors duration-300"
                 >
                   Privacy
@@ -289,7 +295,7 @@ const Footer = () => {
                   className="hover:text-white transition-colors duration-300"
                 >
                   Terms
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
