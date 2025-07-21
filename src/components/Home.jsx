@@ -284,7 +284,7 @@ const Home = () => {
                 gradient: "from-purple-500 to-pink-500",
               },
               {
-                title: "EMaster Time Management",
+                title: "Master Time Management",
                 description:
                   "Boost your productivity and happiness with this updated course designed to transform your daily routine. Learn how to plan effectively, track your time, set meaningful goals, and build life-changing habits. Now available in Hindi with English subtitles. Take the first step toward a more organized, focused, and fulfilling life today.",
                 image:
