@@ -13,8 +13,9 @@ const Home = lazy(() => import("./components/Home"));
 const Products = lazy(() => import("./components/Products"));
 const ProductDetail = lazy(() => import("./components/ProductDetail"));
 const About = lazy(() => import("./components/About"));
-const LoginSignup = lazy(() => import("./components/LoginSignup"));
+// const LoginSignup = lazy(() => import("./components/LoginSignup"));
 const GetStarted = lazy(() => import("./components/GetStarted"));
+import LoginSignup from "./components/LoginSignup"
 
 // Loading component with modern shimmer effect
 const LoadingSpinner = () => (
