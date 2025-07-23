@@ -11,7 +11,7 @@ import {
   FaExclamationCircle,
 } from "react-icons/fa";
 
-const LoginSignup = () => {
+const Loginsignup = () => {
   const [isLogin, setIsLogin] = useState(true);
   const [form, setForm] = useState({
     name: "",
@@ -385,4 +385,4 @@ const LoginSignup = () => {
   );
 };
 
-export default LoginSignup;
+export default Loginsignup;
