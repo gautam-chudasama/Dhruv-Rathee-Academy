@@ -464,35 +464,6 @@ function App() {
   useEffect(() => {
     const initializeApp = async () => {
       try {
-        // Preload critical resources
-        const preloadImages = [
-          "/assets/ananya.jpg",
-          "/assets/leadership-course.jpg",
-          "/assets/brand-tshirt.jpg",
-          "/assets/rahul.jpg",
-          "/assets/priya.jpg",
-        ];
-
-        // Create preload promises
-        const imagePromises = preloadImages.map((src) => {
-          return new Promise((resolve, reject) => {
-            const img = new Image();
-            img.onload = resolve;
-            img.onerror = resolve; // Don't fail app if image fails
-            img.src = src;
-
-            // Also add preload link to document head
-            const link = document.createElement("link");
-            link.rel = "preload";
-            link.as = "image";
-            link.href = src;
-            document.head.appendChild(link);
-          });
-        });
-
-        // Wait for critical resources
-        await Promise.allSettled(imagePromises);
-
         // Simulate minimum loading time for smooth UX
         await new Promise((resolve) => setTimeout(resolve, 1000));
 
