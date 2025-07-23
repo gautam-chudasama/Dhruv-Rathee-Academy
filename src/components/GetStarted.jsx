@@ -109,8 +109,8 @@ const GetStarted = () => {
     },
     {
       title: "Time Management Mastery",
-      price: "₹2,999",
-      originalPrice: "₹4,999",
+      price: "₹5,399",
+      originalPrice: "₹7,999",
       students: "22,156+",
       rating: 4.7,
       duration: "8 Hours",
