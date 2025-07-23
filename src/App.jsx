@@ -14,6 +14,7 @@ const Products = lazy(() => import("./components/Products"));
 const ProductDetail = lazy(() => import("./components/ProductDetail"));
 const About = lazy(() => import("./components/About"));
 const LoginSignup = lazy(() => import("./components/LoginSignup"));
+const GetStarted = lazy(() => import("./components/GetStarted"));
 
 // Loading component with modern shimmer effect
 const LoadingSpinner = () => (
@@ -538,6 +539,7 @@ function App() {
                     <Route path="/auth" element={<LoginSignup />} />
                     {/* Catch-all route for 404 */}
                     <Route path="*" element={<NotFound />} />
+                    <Route path="/get-started" element={<GetStarted />} />
                   </Routes>
                 </Suspense>
               </PageTransition>

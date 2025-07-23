@@ -100,14 +100,17 @@ const Navbar = () => {
 
               {/* CTA Button with shimmer effect */}
               <div className="ml-4 pl-4 border-l border-gray-200">
-                <button className="group relative px-6 py-2.5 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-bold rounded-full overflow-hidden transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-purple-300/50">
+                <NavLink
+                  to="/get-started"
+                  className="group relative inline-block px-6 py-2.5 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-bold rounded-full overflow-hidden transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-purple-300/50"
+                >
                   <span className="relative z-10 flex items-center space-x-2">
                     <span>✨</span>
                     <span>Get Started</span>
                   </span>
                   <div className="absolute inset-0 bg-gradient-to-r from-pink-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
                   <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
-                </button>
+                </NavLink>
               </div>
             </div>
 
