@@ -61,25 +61,24 @@ const Footer = () => {
       label: "LinkedIn",
       color: "hover:text-blue-300",
     },
-    // { icon: Github, href: "#", label: "GitHub", color: "hover:text-gray-300" },
   ];
 
   const quickLinks = [
     { name: "Home", path: "/" },
     { name: "Products", path: "/products" },
     { name: "About", path: "/about" },
-    { name: "Contact", path: "/contact" },
-    { name: "Blog", path: "/blog" },
-    { name: "Careers", path: "/careers" },
+    { name: "Contact", path: "mailto:support@dhruvrathee.com" },
+    // { name: "Blog", path: "/blog" },
+    { name: "Wikipedia", path: "https://en.wikipedia.org/wiki/Dhruv_Rathee"},
   ];
 
   const resources = [
-    { name: "Documentation", path: "/docs" },
-    { name: "API Reference", path: "/api" },
-    { name: "Community", path: "/community" },
-    { name: "Support", path: "/support" },
-    { name: "Privacy Policy", path: "/privacy" },
-    { name: "Terms of Service", path: "/terms" },
+    // { name: "Documentation", path: "/docs" },
+    // { name: "API Reference", path: "/api" },
+    // { name: "Community", path: "/community" },
+    { name: "Support", path: "mailto:support@dhruvrathee.com" },
+    { name: "Privacy Policy", path: "https://tagmango.com/privacy" },
+    { name: "Terms of Service", path: "https://tagmango.com/terms" },
   ];
 
   return (
@@ -176,6 +175,7 @@ const Footer = () => {
                   <li key={index}>
                     <NavLink
                       to={resource.path}
+                      target="_blank"
                       className="text-purple-200 hover:text-white transition-all duration-300 flex items-center group"
                     >
                       <span className="w-0 h-0.5 bg-purple-400 transition-all duration-300 group-hover:w-4 mr-0 group-hover:mr-2 rounded-full"></span>
@@ -284,18 +284,20 @@ const Footer = () => {
                   <span className="w-2 h-2 bg-green-400 rounded-full mr-2 animate-pulse"></span>
                   System Status: Operational
                 </span>
-                {/* <Link
-                  to="#"
+                <NavLink
+                  to="https://tagmango.com/privacy"
                   className="hover:text-white transition-colors duration-300"
+                  target="_blank"
                 >
                   Privacy
-                </Link>
-                <Link
-                  to="/terms"
+                </NavLink>
+                <NavLink
+                  to="https://tagmango.com/terms"
                   className="hover:text-white transition-colors duration-300"
+                  target="_blank"
                 >
                   Terms
-                </Link> */}
+                </NavLink>
               </div>
             </div>
           </div>

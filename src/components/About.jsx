@@ -7,53 +7,54 @@ import {
   FaHeart,
   FaUsers,
   FaGraduationCap,
+  FaInstagram,
   FaLightbulb,
 } from "react-icons/fa";
 
 const founder = {
   name: "Dhruv Rathee",
   role: "Youtuber",
-  bio: "Ananya Mehra is a celebrated Indian tech influencer and entrepreneur. With over 1 million followers, her mission is to empower the next generation of coders and creators with accessible, high-impact learning experiences.",
+  bio: `I love making videos. My expertise is in creating informative and educational content which provides objective, concise and simplified explanations of complex issues on a variety of subjects.`,
   photo:
     "https://cdn.prod.website-files.com/65e8a443d3a217849e4283b8/65e8a443d3a217849e428438_Dhruv%201(1).png",
   stats: [
-    { number: "1M+", label: "Followers", icon: FaUsers },
-    { number: "10K+", label: "Students Trained", icon: FaGraduationCap },
-    { number: "50+", label: "Companies Partnered", icon: FaRocket },
+    { number: "1M+", label: "Students Trained", icon: FaGraduationCap },
     { number: "95%", label: "Success Rate", icon: FaTrophy },
+    { number: "25M+", label: "Subscribers", icon: FaUsers },
+    { number: "10M+", label: "Insta Followers", icon: FaInstagram },
   ],
 };
 
 const achievements = [
   {
-    year: "2022",
-    title: "Launched First Coding Bootcamp",
+    year: "2019",
+    title: "Crossed 1 Million Subscribers",
     description:
-      "Helped over 5,000 students land their first tech job with industry-leading curriculum.",
+      "Achieved a major milestone with a growing community of informed viewers, sparking public discourse on key national and global issues.",
     icon: FaRocket,
     color: "from-blue-500 to-purple-600",
   },
   {
-    year: "2023",
-    title: "YouTube Growth Award",
+    year: "2022",
+    title: "Fact-Based Journalism Recognition",
     description:
-      "Surpassed 1 million YouTube subscribers for educational content, reaching global audience.",
+      "Honored by independent media platforms for promoting responsible digital journalism, critical thinking, and civic engagement.",
     icon: FaTrophy,
     color: "from-purple-500 to-pink-600",
   },
   {
-    year: "2024",
-    title: "Women in Tech Leader",
+    year: "2023",
+    title: "Launched Dhruv Rathee Academy",
     description:
-      "Recognized among India's Top 10 Women Entrepreneurs by Tech Innovation Awards.",
+      "Introduced a comprehensive online learning platform focused on YouTube growth, media literacy, and empowering the next generation of digital creators.",
     icon: FaStar,
     color: "from-pink-500 to-red-600",
   },
   {
     year: "2025",
-    title: "Global EdTech Collaboration",
+    title: "Global EdTech Collaborations",
     description:
-      "Partnered with leading global platforms for accessible education across 15+ countries.",
+      "Partnered with top educational institutions and platforms to offer accessible courses worldwide, reaching learners in over 20 countries.",
     icon: FaLightbulb,
     color: "from-green-500 to-blue-600",
   },
@@ -221,8 +222,8 @@ const About = () => {
               Journey of Excellence
             </h3>
             <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-              Discover the milestones that shaped our mission to transform lives
-              through education
+              Discover the milestones that shaped our mission to educate,
+              empower, and enlighten millions through digital storytelling.
             </p>
           </div>
 
