@@ -13,9 +13,8 @@ const Home = lazy(() => import("./components/Home"));
 const Products = lazy(() => import("./components/Products"));
 const ProductDetail = lazy(() => import("./components/ProductDetail"));
 const About = lazy(() => import("./components/About"));
-// const LoginSignup = lazy(() => import("./components/LoginSignup"));
+const LoginSignup = lazy(() => import("./components/LoginSignup"));
 const GetStarted = lazy(() => import("./components/GetStarted"));
-import Loginsignup from "./components/Loginsignup"
 
 // Loading component with modern shimmer effect
 const LoadingSpinner = () => (
@@ -537,7 +536,7 @@ function App() {
                     <Route path="/products" element={<Products />} />
                     <Route path="/products/:id" element={<ProductDetail />} />
                     <Route path="/about" element={<About />} />
-                    <Route path="/auth" element={<Loginsignup />} />
+                    <Route path="/auth" element={<LoginSignup />} />
                     <Route path="/get-started" element={<GetStarted />} />
                     {/* Catch-all route for 404 */}
                     <Route path="*" element={<NotFound />} />
