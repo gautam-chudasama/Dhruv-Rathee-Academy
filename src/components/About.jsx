@@ -10,6 +10,7 @@ import {
   FaInstagram,
   FaLightbulb,
 } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 const founder = {
   name: "Dhruv Rathee",
@@ -62,25 +63,25 @@ const achievements = [
 
 const testimonials = [
   {
-    name: "Rahul Sharma",
-    role: "Software Engineer at Google",
-    text: "Ananya's courses changed my life—I landed a software job at a major startup within 6 months! The practical approach and mentorship were game-changing.",
+    name: "Raghav Goel",
+    role: "Enroll in ChatGPT course",
+    text: "I Believe conducting the course in Hindi Language was the best part. All the concepts were explained in a very simple easy to understand way. The prompt sheets prepared are also very useful for future use. Looking forward for more such creative courses by Dhruv.",
     avatar:
       "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
     rating: 5,
   },
   {
-    name: "Priya K.",
-    role: "Full Stack Developer",
-    text: "The coding bootcamp community is super supportive, and the learning resources are top-notch. Best investment I made for my career!",
+    name: "Keyur Kumbhare",
+    role: "Enroll in Time Management course",
+    text: "This course proved to be a game changer and helped me a lot in killing by habit of procrastination. Really enjoyed the whole vibe of the course and how Dhruv kept it short and simple without missing anything. Thank you!",
     avatar:
       "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
     rating: 5,
   },
   {
-    name: "Arjun Patel",
-    role: "Startup Founder",
-    text: "Ananya's mentorship helped me build my first MVP. Her insights on product development and user experience are invaluable.",
+    name: "Bushra Khan R.",
+    role: "Enroll in YouTube Blueprint course",
+    text: "Extremely well structured, and very well presented. I believe the change that I would expect would be the change in the green screen. The BG could've been more simplistic other I really love everything you guys do! Thanks to each and everyone in the team for making it possible!",
     avatar:
       "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
     rating: 5,
@@ -385,13 +386,10 @@ const About = () => {
             through our programs
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="px-8 py-4 bg-white text-purple-600 font-bold rounded-full hover:scale-105 hover:shadow-xl transition-all duration-300 group">
+            <NavLink to="/products" className="px-8 py-4 bg-white text-purple-600 font-bold rounded-full hover:scale-105 hover:shadow-xl transition-all duration-300 group">
               <span className="mr-2">Start Your Journey</span>
               <FaRocket className="inline-block group-hover:translate-x-1 transition-transform duration-300" />
-            </button>
-            <button className="px-8 py-4 border-2 border-white text-white font-bold rounded-full hover:bg-white hover:text-purple-600 hover:scale-105 transition-all duration-300">
-              Watch Success Stories
-            </button>
+            </NavLink>
           </div>
         </div>
       </section>
