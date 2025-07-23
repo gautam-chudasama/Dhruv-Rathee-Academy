@@ -331,9 +331,9 @@ const Home = () => {
                   <p className="text-gray-400 mb-6 leading-relaxed">
                     {item.description}
                   </p>
-                  <button className="w-full py-3 bg-gradient-to-r from-gray-700 to-gray-600 hover:from-purple-600 hover:to-pink-600 text-white font-semibold rounded-full transition-all duration-300 transform hover:scale-105">
+                    {/* <button className="w-full py-3 bg-gradient-to-r from-gray-700 to-gray-600 hover:from-purple-600 hover:to-pink-600 text-white font-semibold rounded-full transition-all duration-300 transform hover:scale-105">
                     Explore Now
-                  </button>
+                    </button> */}
                 </div>
 
                 {/* Hover Glow */}
