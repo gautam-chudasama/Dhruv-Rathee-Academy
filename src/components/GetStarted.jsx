@@ -94,6 +94,8 @@ const GetStarted = () => {
       students: "28,479+",
       rating: 4.9,
       duration: "10.5 Hours",
+      enroll:
+        "https://dhruvrathee.tagmango.ai/web/checkout/64abb0433fcf6e1fc7bdb47b",
     },
     {
       title: "YouTube Blueprint",
@@ -102,6 +104,8 @@ const GetStarted = () => {
       students: "15,234+",
       rating: 4.8,
       duration: "12 Hours",
+      enroll:
+        "https://dhruvrathee.tagmango.ai/web/checkout/660a84fbee0dc8e6eacd30a0",
     },
     {
       title: "Time Management Mastery",
@@ -110,6 +114,8 @@ const GetStarted = () => {
       students: "22,156+",
       rating: 4.7,
       duration: "8 Hours",
+      enroll:
+        "https://dhruvrathee.tagmango.ai/web/checkout/642e6e2437984fa898b0dbce",
     },
   ];
 
@@ -171,13 +177,6 @@ const GetStarted = () => {
                   <FaArrowRight className="group-hover:translate-x-1 transition-transform" />
                 </span>
               </NavLink>
-
-              <button className="group px-8 py-4 bg-transparent border-2 border-white text-white font-bold rounded-full transition-all duration-300 hover:bg-white hover:text-purple-900 hover:scale-110 hover:shadow-2xl backdrop-blur-sm bg-white/10">
-                <span className="flex items-center gap-2">
-                  <FaPlayCircle />
-                  Watch Demo
-                </span>
-              </button>
             </div>
 
             {/* Stats */}
@@ -420,9 +419,14 @@ const GetStarted = () => {
                   </div>
                 </div>
 
-                <button className="w-full bg-gradient-to-r from-pink-500 to-purple-600 text-white font-semibold py-3 rounded-xl hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300 group-hover:scale-105">
-                  Enroll Now
-                </button>
+                <a
+                  href={course.enroll}
+                  target="_blank"
+                >
+                  <button className="w-full bg-gradient-to-r from-pink-500 to-purple-600 text-white font-semibold py-3 rounded-xl hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300 group-hover:scale-105">
+                    Enroll Now
+                  </button>
+                </a>
               </div>
             ))}
           </div>
