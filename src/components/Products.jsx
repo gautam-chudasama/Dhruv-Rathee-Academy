@@ -478,20 +478,6 @@ const Products = () => {
           </div>
         )}
 
-        {/* CTA Section */}
-        {filteredProducts.length > 0 && (
-          <div className="mt-20 text-center bg-gradient-to-r from-purple-600 to-blue-600 rounded-3xl p-12 text-white">
-            <h2 className="text-3xl font-bold mb-4">
-              Can't find what you're looking for?
-            </h2>
-            <p className="text-xl mb-8 opacity-90">
-              Get personalized recommendations based on your interests
-            </p>
-            <button className="bg-white text-purple-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transform hover:scale-105 transition-all duration-300">
-              Get Recommendations
-            </button>
-          </div>
-        )}
       </div>
     </div>
   );

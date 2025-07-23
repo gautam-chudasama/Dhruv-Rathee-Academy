@@ -34,8 +34,6 @@ const productsData = [
       "https://th.bing.com/th/id/OIP._bav1kSaVxm8HoGAY7NxvwHaEK?w=313&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
     gallery: [
       "https://th.bing.com/th/id/OIP._bav1kSaVxm8HoGAY7NxvwHaEK?w=313&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
-      // "https://images.unsplash.com/photo-1677442136019-21780ecad8c4?w=600&h=400&fit=crop",
-      // "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=600&h=400&fit=crop",
     ],
     description:
       "Master the power of AI with ChatGPT. Learn prompt engineering, automation, and practical applications to boost your productivity.",
@@ -44,6 +42,8 @@ const productsData = [
     rating: 4.9,
     reviews: 1247,
     students: 28479,
+    enroll:
+      "https://dhruvrathee.tagmango.ai/web/checkout/64abb0433fcf6e1fc7bdb47b",
     duration: "10.5 Hours",
     level: "Beginner to Advanced",
     language: "Hindi & English",
@@ -63,23 +63,48 @@ const productsData = [
     curriculum: [
       {
         module: "Introduction to AI & ChatGPT",
+        lessons: 4,
+        duration: "23 Minutes",
+      },
+      {
+        module: "Chatbots and Prompt Engineering",
+        lessons: 5,
+        duration: "40 Minutes",
+      },
+      {
+        module: "ChatGPT for Learning and Education",
+        lessons: 5,
+        duration: "55 Minutes",
+      },
+      {
+        module: "ChatGPT in Your Personal Life",
+        lessons: 4,
+        duration: "49 Minutes",
+      },
+      {
+        module: "ChatGPT for Businesses and Employees",
+        lessons: 5,
+        duration: "62 Minutes",
+      },
+      {
+        module: "Dangers and Limitations of ChatGPT",
+        lessons: 3,
+        duration: "22 Minutes",
+      },
+      {
+        module: "Bonus Workshop",
+        lessons: 1,
+        duration: "56 Minutes",
+      },
+      {
+        module: "Multi-Modal Capabilities",
         lessons: 8,
-        duration: "2.5 hours",
+        duration: "107 Minutes",
       },
       {
-        module: "Prompt Engineering Fundamentals",
-        lessons: 12,
-        duration: "3 hours",
-      },
-      {
-        module: "Advanced ChatGPT Techniques",
-        lessons: 10,
-        duration: "2.5 hours",
-      },
-      {
-        module: "Business Applications",
-        lessons: 15,
-        duration: "2.5 hours",
+        module: "Rise of Advanced AI Models",
+        lessons: 5,
+        duration: "125 Minutes",
       },
     ],
     instructor: {
@@ -116,10 +141,9 @@ const productsData = [
     originalPrice: "₹9,999",
     category: "Course",
     image:
-      "https://th.bing.com/th/id/OIP.Gj7KBHLP-6xkfr5h5o8QZQHaEK?w=292&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+      "https://tagmango.com/publicassets/-img_7626-440b32e151284e5c32145e4880ddc40d.JPG",
     gallery: [
-      "https://th.bing.com/th/id/OIP.Gj7KBHLP-6xkfr5h5o8QZQHaEK?w=292&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
-      // "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
+      "https://tagmango.com/publicassets/-img_7626-440b32e151284e5c32145e4880ddc40d.JPG",
     ],
     description:
       "Learn the complete YouTube strategy from content creation to monetization. Build your channel from zero to thousands of subscribers.",
@@ -128,6 +152,8 @@ const productsData = [
     rating: 4.8,
     reviews: 892,
     students: 15234,
+    enroll:
+      "https://dhruvrathee.tagmango.ai/web/checkout/660a84fbee0dc8e6eacd30a0",
     duration: "12 Hours",
     level: "Beginner to Intermediate",
     language: "Hindi & English",
@@ -144,6 +170,53 @@ const productsData = [
       "Private community access",
       "Lifetime updates",
     ],
+    curriculum: [
+      {
+        module: "Introduction to AI & ChatGPT",
+        lessons: 4,
+        duration: "23 Minutes",
+      },
+      {
+        module: "Chatbots and Prompt Engineering",
+        lessons: 5,
+        duration: "40 Minutes",
+      },
+      {
+        module: "ChatGPT for Learning and Education",
+        lessons: 5,
+        duration: "55 Minutes",
+      },
+      {
+        module: "ChatGPT in Your Personal Life",
+        lessons: 4,
+        duration: "49 Minutes",
+      },
+      {
+        module: "ChatGPT for Businesses and Employees",
+        lessons: 5,
+        duration: "62 Minutes",
+      },
+      {
+        module: "Dangers and Limitations of ChatGPT",
+        lessons: 3,
+        duration: "22 Minutes",
+      },
+      {
+        module: "Bonus Workshop",
+        lessons: 1,
+        duration: "56 Minutes",
+      },
+      {
+        module: "Multi-Modal Capabilities",
+        lessons: 8,
+        duration: "107 Minutes",
+      },
+      {
+        module: "Rise of Advanced AI Models",
+        lessons: 5,
+        duration: "125 Minutes",
+      },
+    ],
     instructor: {
       name: "Dhruv Rathee",
       title: "YouTuber & Digital Creator",
@@ -154,6 +227,22 @@ const productsData = [
       courses: 5,
       rating: 4.9,
     },
+    testimonials: [
+      {
+        name: "Raghav Goel",
+        text: "The course in Hindi Language was the best part. All concepts were explained in a very simple way. The prompt sheets are very useful!",
+        rating: 5,
+        avatar:
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+      },
+      {
+        name: "Priya Sharma",
+        text: "This course completely changed how I work with AI. The practical examples are incredible and Dhruv's teaching style is amazing!",
+        rating: 5,
+        avatar:
+          "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+      },
+    ],
   },
   {
     id: "3",
@@ -166,9 +255,97 @@ const productsData = [
     description:
       "Master your time and boost productivity with proven techniques and strategies used by successful entrepreneurs.",
     rating: 4.7,
+    reviews: 1247,
     students: 22156,
+    enroll:
+      "https://dhruvrathee.tagmango.ai/web/checkout/642e6e2437984fa898b0dbce",
     duration: "8 Hours",
     badge: "Trending",
+    features: [
+      "20+ ChatGPT techniques and strategies",
+      "Prompt engineering masterclass",
+      "Real-world business applications",
+      "Content creation automation",
+      "Data analysis with AI",
+      "Lifetime access to course updates",
+      "Certificate of completion",
+      "24/7 email support",
+      "Mobile-friendly learning",
+      "Downloadable resources",
+    ],
+    curriculum: [
+      {
+        module: "Introduction to AI & ChatGPT",
+        lessons: 4,
+        duration: "23 Minutes",
+      },
+      {
+        module: "Chatbots and Prompt Engineering",
+        lessons: 5,
+        duration: "40 Minutes",
+      },
+      {
+        module: "ChatGPT for Learning and Education",
+        lessons: 5,
+        duration: "55 Minutes",
+      },
+      {
+        module: "ChatGPT in Your Personal Life",
+        lessons: 4,
+        duration: "49 Minutes",
+      },
+      {
+        module: "ChatGPT for Businesses and Employees",
+        lessons: 5,
+        duration: "62 Minutes",
+      },
+      {
+        module: "Dangers and Limitations of ChatGPT",
+        lessons: 3,
+        duration: "22 Minutes",
+      },
+      {
+        module: "Bonus Workshop",
+        lessons: 1,
+        duration: "56 Minutes",
+      },
+      {
+        module: "Multi-Modal Capabilities",
+        lessons: 8,
+        duration: "107 Minutes",
+      },
+      {
+        module: "Rise of Advanced AI Models",
+        lessons: 5,
+        duration: "125 Minutes",
+      },
+    ],
+    instructor: {
+      name: "Dhruv Rathee",
+      title: "YouTuber & Digital Creator",
+      image:
+        "https://cdn.prod.website-files.com/65e8a443d3a217849e4283b8/65e8a443d3a217849e428438_Dhruv%201(1).png",
+      bio: "I love making videos. My expertise is in creating informative and educational content which provides objective, concise and simplified explanations of complex issues.",
+      followers: "25M+",
+      courses: 5,
+      rating: 4.9,
+    },
+    testimonials: [
+      {
+        name: "Raghav Goel",
+        text: "The course in Hindi Language was the best part. All concepts were explained in a very simple way. The prompt sheets are very useful!",
+        rating: 5,
+        avatar:
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+      },
+      {
+        name: "Priya Sharma",
+        text: "This course completely changed how I work with AI. The practical examples are incredible and Dhruv's teaching style is amazing!",
+        rating: 5,
+        avatar:
+          "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+      },
+    ],
   },
   {
     id: "4",
@@ -181,9 +358,97 @@ const productsData = [
     description:
       "Are you ready to transform your skills, boost productivity, and stay ahead in the AI revolution? Join The AI Masterclass, a live online workshop designed to empower you with the latest AI tools and knowledge you need to thrive in today’s fast-changing world.",
     rating: 4.6,
+    reviews: 1247,
     students: 8920,
+    enroll:
+      "https://docs.google.com/forms/d/e/1FAIpQLSdcpPFZAoOFTA4NsrsbBD6cnlfO5hlBt8HF55NqgsZFmkuVEA/viewform",
     duration: "Live",
     badge: "Live",
+    features: [
+      "20+ ChatGPT techniques and strategies",
+      "Prompt engineering masterclass",
+      "Real-world business applications",
+      "Content creation automation",
+      "Data analysis with AI",
+      "Lifetime access to course updates",
+      "Certificate of completion",
+      "24/7 email support",
+      "Mobile-friendly learning",
+      "Downloadable resources",
+    ],
+    curriculum: [
+      {
+        module: "Introduction to AI & ChatGPT",
+        lessons: 4,
+        duration: "23 Minutes",
+      },
+      {
+        module: "Chatbots and Prompt Engineering",
+        lessons: 5,
+        duration: "40 Minutes",
+      },
+      {
+        module: "ChatGPT for Learning and Education",
+        lessons: 5,
+        duration: "55 Minutes",
+      },
+      {
+        module: "ChatGPT in Your Personal Life",
+        lessons: 4,
+        duration: "49 Minutes",
+      },
+      {
+        module: "ChatGPT for Businesses and Employees",
+        lessons: 5,
+        duration: "62 Minutes",
+      },
+      {
+        module: "Dangers and Limitations of ChatGPT",
+        lessons: 3,
+        duration: "22 Minutes",
+      },
+      {
+        module: "Bonus Workshop",
+        lessons: 1,
+        duration: "56 Minutes",
+      },
+      {
+        module: "Multi-Modal Capabilities",
+        lessons: 8,
+        duration: "107 Minutes",
+      },
+      {
+        module: "Rise of Advanced AI Models",
+        lessons: 5,
+        duration: "125 Minutes",
+      },
+    ],
+    instructor: {
+      name: "Dhruv Rathee",
+      title: "YouTuber & Digital Creator",
+      image:
+        "https://cdn.prod.website-files.com/65e8a443d3a217849e4283b8/65e8a443d3a217849e428438_Dhruv%201(1).png",
+      bio: "I love making videos. My expertise is in creating informative and educational content which provides objective, concise and simplified explanations of complex issues.",
+      followers: "25M+",
+      courses: 5,
+      rating: 4.9,
+    },
+    testimonials: [
+      {
+        name: "Raghav Goel",
+        text: "The course in Hindi Language was the best part. All concepts were explained in a very simple way. The prompt sheets are very useful!",
+        rating: 5,
+        avatar:
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+      },
+      {
+        name: "Priya Sharma",
+        text: "This course completely changed how I work with AI. The practical examples are incredible and Dhruv's teaching style is amazing!",
+        rating: 5,
+        avatar:
+          "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+      },
+    ],
   },
   {
     id: "5",
@@ -196,9 +461,57 @@ const productsData = [
     description:
       "Read 'The Power of Universe' by Vijeta Dahiya and find out. What you would learn here would guide you through your life.",
     rating: 4.6,
+    reviews: 1247,
     students: 1876,
+    enroll:
+      "https://dhruvrathee.tagmango.ai/web/checkout/66378cb5dc3b3b7df0796339",
     duration: "77 Pages",
     badge: "E-Book",
+    features: [
+      "20+ ChatGPT techniques and strategies",
+      "Prompt engineering masterclass",
+      "Real-world business applications",
+      "Content creation automation",
+      "Data analysis with AI",
+      "Lifetime access to course updates",
+      "Certificate of completion",
+      "24/7 email support",
+      "Mobile-friendly learning",
+      "Downloadable resources",
+    ],
+    curriculum: [
+      {
+        module: "77 Pages",
+        lessons: 1,
+        duration: "1.5 hours",
+      },
+    ],
+    instructor: {
+      name: "Dhruv Rathee",
+      title: "YouTuber & Digital Creator",
+      image:
+        "https://cdn.prod.website-files.com/65e8a443d3a217849e4283b8/65e8a443d3a217849e428438_Dhruv%201(1).png",
+      bio: "I love making videos. My expertise is in creating informative and educational content which provides objective, concise and simplified explanations of complex issues.",
+      followers: "25M+",
+      courses: 5,
+      rating: 4.9,
+    },
+    testimonials: [
+      {
+        name: "Raghav Goel",
+        text: "The course in Hindi Language was the best part. All concepts were explained in a very simple way. The prompt sheets are very useful!",
+        rating: 5,
+        avatar:
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+      },
+      {
+        name: "Priya Sharma",
+        text: "This course completely changed how I work with AI. The practical examples are incredible and Dhruv's teaching style is amazing!",
+        rating: 5,
+        avatar:
+          "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+      },
+    ],
   },
 ];
 
@@ -246,27 +559,6 @@ const ProductDetail = () => {
 
     return () => observer.disconnect();
   }, [product]);
-
-  const handlePurchase = () => {
-    if (product?.category === "Course") {
-      // Simulate enrollment
-      const enrollmentData = {
-        courseId: product.id,
-        courseName: product.title,
-        price: product.price,
-        timestamp: new Date().toISOString(),
-      };
-
-      // Store in localStorage for demo purposes
-      localStorage.setItem("enrollment", JSON.stringify(enrollmentData));
-
-      alert(
-        `🎉 Successfully enrolled in ${product.title}! Welcome to the program. Check your email for access details.`
-      );
-    } else {
-      alert(`🛒 Added ${product.title} to cart! Proceeding to checkout...`);
-    }
-  };
 
   const handleShare = async () => {
     if (navigator.share) {
@@ -511,7 +803,6 @@ const ProductDetail = () => {
                     </button>
                   </div>
                 </div>
-
                 {/* Size & Color Selection for Merchandise */}
                 {product.category === "Merchandise" && (
                   <div className="space-y-4 mb-6">
@@ -585,24 +876,15 @@ const ProductDetail = () => {
                     </div>
                   </div>
                 )}
-
                 {/* Purchase Button */}
-                <button
-                  onClick={handlePurchase}
-                  className="w-full py-4 bg-gradient-to-r from-pink-500 via-purple-600 to-blue-600 text-white font-bold text-lg rounded-xl hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/50 transition-all duration-300 flex items-center justify-center space-x-2"
-                >
-                  {product.category === "Course" ? (
-                    <>
-                      <FaRocket />
-                      <span>Enroll Now</span>
-                    </>
-                  ) : (
-                    <>
-                      <FaShoppingCart />
-                      <span>Add to Cart</span>
-                    </>
-                  )}
-                </button>
+                <a href={product.enroll} target="_blank">
+                  <button
+                    className="w-full py-4 bg-gradient-to-r from-pink-500 via-purple-600 to-blue-600 text-white font-bold text-lg rounded-xl hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/50 transition-all duration-300 flex items-center justify-center space-x-2"
+                  >
+                        <FaRocket />
+                        <span>Enroll Now</span>
+                  </button>
+                </a>
 
                 {/* Course Features */}
                 {product.category === "Course" && (
@@ -849,7 +1131,7 @@ const ProductDetail = () => {
               .map((relatedProduct) => (
                 <Link
                   key={relatedProduct.id}
-                  to={`/product/${relatedProduct.id}`}
+                  to={`/products/${relatedProduct.id}`}
                   className="group bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-lg rounded-2xl p-6 border border-white/10 hover:border-purple-500/50 transition-all duration-300 hover:scale-105"
                 >
                   <div className="aspect-video rounded-xl overflow-hidden mb-4">
