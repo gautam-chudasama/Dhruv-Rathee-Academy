@@ -537,9 +537,9 @@ function App() {
                     <Route path="/products/:id" element={<ProductDetail />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/auth" element={<LoginSignup />} />
+                    <Route path="/get-started" element={<GetStarted />} />
                     {/* Catch-all route for 404 */}
                     <Route path="*" element={<NotFound />} />
-                    <Route path="/get-started" element={<GetStarted />} />
                   </Routes>
                 </Suspense>
               </PageTransition>

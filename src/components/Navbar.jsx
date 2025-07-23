@@ -195,21 +195,23 @@ const Navbar = () => {
 
               {/* Mobile CTA Button */}
               <div className="pt-4 border-t border-gray-200">
-                <button
-                  className="w-full bg-gradient-to-r from-purple-600 to-pink-600 text-white font-bold py-4 rounded-xl shadow-lg hover:shadow-purple-300/50 transition-all duration-300 transform hover:scale-105 relative overflow-hidden group"
-                  style={{
-                    animationDelay: `${links.length * 100}ms`,
-                    animation: menuOpen
-                      ? "slideInUp 0.5s ease-out forwards"
-                      : "none",
-                  }}
-                >
-                  <span className="flex items-center justify-center space-x-2 relative z-10">
-                    <span>✨</span>
-                    <span>Get Started</span>
-                  </span>
-                  <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
-                </button>
+                <a href="/get-started">
+                  <button
+                    className="w-full bg-gradient-to-r from-purple-600 to-pink-600 text-white font-bold py-4 rounded-xl shadow-lg hover:shadow-purple-300/50 transition-all duration-300 transform hover:scale-105 relative overflow-hidden group"
+                    style={{
+                      animationDelay: `${links.length * 100}ms`,
+                      animation: menuOpen
+                        ? "slideInUp 0.5s ease-out forwards"
+                        : "none",
+                    }}
+                  >
+                    <span className="flex items-center justify-center space-x-2 relative z-10">
+                      <span>✨</span>
+                      <span>Get Started</span>
+                    </span>
+                    <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
+                  </button>
+                </a>
               </div>
             </div>
           </div>
