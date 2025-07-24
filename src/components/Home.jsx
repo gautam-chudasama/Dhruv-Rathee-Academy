@@ -195,6 +195,7 @@ const Home = () => {
 
               <a
                 href="https://www.youtube.com/watch?v=PvTcmse6DDY"
+                target="_blank"
                 className="group px-10 py-4 bg-transparent border-2 border-white/30 text-white font-bold rounded-full transition-all duration-300 hover:bg-white/10 hover:border-white/60 backdrop-blur-sm flex items-center gap-2"
               >
                 <FaPlay className="group-hover:scale-110 transition-transform" />
@@ -251,6 +252,7 @@ const Home = () => {
               <a
                 key={index}
                 href={social.link}
+                target="_blank"
                 className={`group relative w-16 h-16 bg-gradient-to-br ${social.color} ${social.hover} rounded-2xl flex items-center justify-center transform hover:scale-110 hover:rotate-6 transition-all duration-300 shadow-lg hover:shadow-2xl`}
               >
                 <social.icon className="text-white text-2xl group-hover:scale-110 transition-transform" />

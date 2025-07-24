@@ -68,17 +68,21 @@ const Footer = () => {
     { name: "Products", path: "/products" },
     { name: "About", path: "/about" },
     { name: "Contact", path: "mailto:support@dhruvrathee.com" },
-    // { name: "Blog", path: "/blog" },
-    { name: "Wikipedia", path: "https://en.wikipedia.org/wiki/Dhruv_Rathee"},
+    { name: "Get Started", path: "/get-started" },
   ];
 
   const resources = [
     // { name: "Documentation", path: "/docs" },
     // { name: "API Reference", path: "/api" },
-    // { name: "Community", path: "/community" },
+    {
+      name: "Community",
+      path: "https://www.reddit.com/r/DhruvRatheeOfficial",
+    },
     { name: "Support", path: "mailto:support@dhruvrathee.com" },
     { name: "Privacy Policy", path: "https://tagmango.com/privacy" },
     { name: "Terms of Service", path: "https://tagmango.com/terms" },
+    { name: "Wikipedia", path: "https://en.wikipedia.org/wiki/Dhruv_Rathee" },
+    { name: "YouTube Vlogs", path: "http://www.youtube.com/@DhruvRatheeVlogs" },
   ];
 
   return (
@@ -226,6 +230,7 @@ const Footer = () => {
                       <a
                         key={index}
                         href={href}
+                        target="_blank"
                         aria-label={label}
                         className={`group relative p-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full ${color} transition-all duration-300 transform hover:scale-110 hover:-translate-y-1`}
                       >
