@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import Products from "./Products";
+
 import {
   FaInstagram,
   FaYoutube,
@@ -182,7 +182,7 @@ const Home = () => {
             {/* CTA Buttons */}
             <div className="flex flex-wrap justify-center gap-6 mb-12">
               <a
-                href="https://dhruv-rathee-academy-jwpy-7zs3dpowi-gautam-chudasamas-projects.vercel.app/products"
+                href="/products"
                 className="group relative px-10 py-4 bg-gradient-to-r from-pink-500 to-purple-600 text-white font-bold rounded-full overflow-hidden transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-pink-500/25"
               >
                 <span className="absolute inset-0 bg-gradient-to-r from-pink-600 to-purple-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
