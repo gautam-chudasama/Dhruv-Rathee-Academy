@@ -90,17 +90,6 @@ const Footer = () => {
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-blue-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse animation-delay-2000"></div>
       </div>
 
-      {/* Scroll to Top Button */}
-      {showScrollTop && (
-        <button
-          onClick={scrollToTop}
-          className="absolute top-4 right-4 z-10 bg-white/10 backdrop-blur-sm border border-white/20 text-white p-3 rounded-full hover:bg-white/20 transition-all duration-300 transform hover:scale-110 hover:-translate-y-1 group"
-          aria-label="Scroll to top"
-        >
-          <FaArrowUp className="w-4 h-4 group-hover:animate-bounce" />
-        </button>
-      )}
-
       <div className="relative z-10 pt-16 pb-8">
         <div className="max-w-7xl mx-auto px-6">
           {/* Main Footer Content */}
