@@ -48,7 +48,7 @@ const Navbar = () => {
             : "bg-white/95 backdrop-blur-sm shadow-lg"
         }`}
       >
-        <div className="max-w-7xl mx-auto px-4 lg:px-6">
+        <div className="mx-auto px-4 lg:px-6">
           <div className="flex items-center justify-between h-16 lg:h-20">
             {/* Enhanced Logo / Brand with gradient and hover effects */}
             <Link
@@ -227,7 +227,7 @@ const Navbar = () => {
       )}
 
       {/* Add these styles to your index.css for the animations */}
-      <style jsx>{`
+      <style jsx="true">{`
         @keyframes slideInUp {
           from {
             opacity: 0;

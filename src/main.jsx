@@ -149,7 +149,7 @@ if (process.env.NODE_ENV === "development") {
   }
 
   // Console welcome message for judges/reviewers
-  console.log(`🎉 Welcome to BrandName`);
+  console.log(`🎉 Welcome to Dhruv Rathee Academy`);
 }
 
 // App initialization with enhanced features
